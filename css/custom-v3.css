@@ -1,0 +1,185 @@
+
+@font-face {
+	font-family: avo;
+	src: url('fonts/UTM-Avo.eot');
+	src: local('â˜º'), url('fonts/UTM-Avo.woff') format('woff'), url('fonts/UTM-Avo.ttf') format('truetype'), url('fonts/UTM-Avo.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: avobold;
+	src: url('fonts/UTM-AvoBold.html');
+	src: local('â˜º'), url('fonts/UTM-AvoBold-2.woff') format('woff'), url('fonts/UTM-AvoBold.ttf') format('truetype'), url('fonts/UTM-AvoBold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&amp;subset=vietnamese');
+
+/*COLOR*/
+.xanhchuoi{color: #85c44c !important;}
+.trang{color: #fff !important;}
+.btn-xanhchuoi {background: #85c44c !important;}
+
+.capslock{font-size: 16px;  text-transform: uppercase;}
+
+/*.h1, .h2, .h3, .h4, body, h1, h2, h3, h4, h5, h6{font-family: 'avo', sans-serif !important;}*/
+.h1, .h2, .h3, .h4, body, h1, h2, h3, h4, h5, h6{font-family: 'Montserrat', sans-serif !important;}
+.navbar.navbar-transparent{background: url(../images/v3/bg-header.png) repeat !important;}
+#tong-quan { background: url(../images/v3/bg-vitri.jpg) no-repeat !important;background-size: 100% 100% !important;}
+.bg-tongquan{ background: url(../images/v3/bg-tongquan.jpg) no-repeat !important;background-size: 100% 100% !important;}
+#vi-tri { background: url(../images/v3/bg-vitri.jpg) no-repeat !important;background-size: 100% 100% !important;}
+#tien-ich { background: url(../images/v3/bg-tienich.jpg) no-repeat !important;background-size: 100% 100% !important;}
+#thiet-ke { background: url(../images/v3/bg-thietke.jpg) no-repeat !important;background-size: 100% 100% !important;}
+#mat-bang { background: url(../images/v3/bg-matbang.jpg) no-repeat !important;background-size: 100% 100% !important;}
+#thanh-toan, #chinh-sach { background: url(../images/v3/bg-leaf.png) no-repeat !important;background-size: 100% 100% !important;}
+#chu-dau-tu { background: url(../images/v3/bg-doitac.jpg) no-repeat !important;background-size: 100% 100% !important;}
+#tin-tuc { background: url(../images/v3/bg-tintuc.jpg) no-repeat !important;background-size: 100% 100% !important;}
+.footer { background: #033120 url(../images/v3/parten-12.png) repeat !important;  background-size: cover;  padding: 40px 0 !important;}
+.txt-tongquan { background: rgba(0, 104, 56, 0.7);}
+.txt-tongquan2 {  background: rgba(97, 150, 63, 0.7);}
+.title h4{
+	color: #333;
+	font-weight: 400 !important;
+	margin-left: 0 !important;
+}
+.title h4:before {   content: none;  }
+.tong-quan li { font-size: 10px !important;}
+.section { padding: 50px 15px !important;}
+.pin-map {
+    float: left !important;
+    color: #85c44c !important;
+    border-bottom: none !important;
+}
+span.overlay {    background: rgba(133, 196, 76, 0.7) !important;}
+.Thumbs .swiper-slide{
+	cursor: pointer;
+}
+.Thumbs .swiper-slide:before {
+    content: '';
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background: rgba(133, 196, 76, 0.5);
+}
+.Thumbs .swiper-slide.swiper-slide-active:before {
+	background: transparent !important;
+}
+.wrapper {
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+}
+
+.swiper-slide img {
+  display: block;
+  height: 100%;
+  /*width: 100%;*/
+  margin: 0 auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.Thumbs {
+  flex-basis: 150px;
+}
+.Thumbs .swiper-slide {
+  opacity: 1;
+  transition: 0.2s all;
+}
+.Thumbs .swiper-slide:hover {
+    transform: scale(1.1);
+}
+.Thumbs .swiper-slide-active {
+  opacity: 1;
+}
+.thanh-toan table tr:nth-of-type(odd) {
+    background-color: #f5f5f5 !important;
+}
+.lien-he .card.card-contact {
+    background: #ecffee !important;
+    border-radius: 1rem !important;
+}
+.form-control, .is-focused .form-control {
+    background-image: linear-gradient(0deg,#7bc22b 2px,rgba(156,39,176,0) 0),linear-gradient(0deg,#1f805c 1px,hsla(0,0%,82%,0) 0) !important;
+}
+.btn-dang-ky {    background: linear-gradient(90deg, #1f805c, #85c44c) !important;     border-radius: 0 !important;}
+.lien-he .card-body{padding: .9375rem 10rem !important;}
+.float-register i {    background: linear-gradient(#85c44c,#1f805c) !important;}
+.slide-tin-tuc .slick-slide {
+    padding: 0px !important; 
+    background: #fff;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+span.read-more {
+    background: linear-gradient(90deg, #1f805c, #85c44c) !important;
+    color: #fff !important;
+}
+.slick-dots li button:before {    font-size: 15px !important;    color: #fff !important;}
+.slick-dots li.slick-active button:before {   color: #003e27 !important;}
+.slide-tin-tuc h5 {
+    font-size: 14px !important;
+    padding: 0 15px !important;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.slide-tin-tuc .des-meta{
+	text-align: left;
+    padding: 0 15px;
+    color: #333;
+    font-size: 13px;
+}
+.call-now-button{display: flex; bottom: 5%; left: 3%}
+.call-now-button div a .quick-alo-ph-img-circle, .call-now-button div a .quick-alo-phone-img-circle, .call-now-button {
+    background-color: #85c44c;
+}
+#banenr{    margin-top: 50px;}
+.carousel-control-next-icon{background-image:url(../images/v3/right-arrow.svg);}
+.carousel-control-prev-icon{background-image:url(../images/v3/left-arrow.svg);}
+.call-now-button div p{font-size: 20px !important}
+span.des-gallery {
+    position: absolute;
+    bottom: 0px;
+    color: #eee;
+    text-align: center;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px 0;
+}
+@media only screen and (min-width: 769px){
+	#tien-ich .section, #thiet-ke .section, #mat-bang .section, #thanh-toan .section, #chinh-sach .section, #chu-dau-tu .section, #tin-tuc .section{padding-top: 15px !important;} 
+	#tong-quan .section, #vi-tri .section, #tien-ich .section1, #mat-bang .section, #chinh-sach .section{padding-bottom: 0 !important;}
+	.hotline-float-left{
+	    left: 10px !important;
+	    bottom: 10px !important;
+	    color: white !important;
+	    background: linear-gradient(90Deg,#85c44c,#1f805c) !important;
+	    padding: 10px 20px;
+	    border-radius: 0.5rem;
+	}
+	.desktop-hide{display: none;}
+	.title img {  width: auto !important;}
+	a.nav-link {  font-weight: 500 !important;	}
+}
+@media (min-width: 768px){
+	.col-1-5 {
+	    flex: 0 0 16.666667% !important;
+	    max-width: 16.666667% !important;
+	    padding: 5px;
+	}
+}
+@media only screen and (max-width: 768px){
+	.call-now-button{bottom: 10% !important; left: 5% !important;}
+	#tong-quan .section {    padding: 0 15px !important;}
+	
+	.desktop-hide{display: block;}
+	.section { padding: 30px 15px !important;}
+	.footer { background: #033120 url(../images/v3/parten-12.png) repeat !important;  background-size: cover; padding-top: 20px !important;}
+	.bg-tongquan,#tong-quan,#vi-tri, #tien-ich, #thiet-ke, #mat-bang, #thanh-toan, #chinh-sach, #chu-dau-tu, #tin-tuc {background-size: cover !important;}
+	#chu-dau-tu{background-position: center !important;}
+	.lien-he .card-body{    padding: .9375rem 1.875rem !important;}
+	.title img {	    width: auto !important;	}
+	.mobile-hide{display: none;}
+}
